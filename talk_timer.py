@@ -2,10 +2,18 @@
 # -*- coding: utf-8 -*-
 import argparse
 from time import sleep
+
 import pyttsx
 
-parser = argparse.ArgumentParser(description='Presentation timer with spoken warnings.')
-parser.add_argument('minutes', type=int, help='Length of talk in minutes')
+
+parser = argparse.ArgumentParser(
+    description='Presentation timer with spoken warnings.'
+)
+parser.add_argument(
+    'minutes',
+    type=int,
+    help='Length of talk in minutes'
+)
 args = parser.parse_args()
 
 print "Timing a {0}-minute talk.".format(args.minutes)
