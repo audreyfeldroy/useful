@@ -1,0 +1,3 @@
+pyttsx==1.1
+macspeechX==1.1a
+parawrap==1.0
